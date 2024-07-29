@@ -1,17 +1,16 @@
 @media (max-width: 900px) {
-    header {
+    #header-part {
         width: 100%;
         justify-content: space-between;
         display: flex;
         flex-direction: row;
         position: relative;
         align-items: center;
-
         position: relative;
         background-color: #576163;
     }
 
-    header .nav-list {
+    #header-part .nav-list {
         display: none;
     }
 
@@ -25,7 +24,7 @@
         /* flex: 1; */
     }
 
-    section .nav-element {
+    #nav-sidebar .nav-list .nav-element {
         flex: 1;
         list-style: none;
         display: block;
@@ -48,5 +47,4 @@
         padding-right: 20px;
         justify-content: flex-end;
     }
-
 }

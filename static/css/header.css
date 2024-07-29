@@ -1,0 +1,68 @@
+#header-part {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    background-color: #576163;
+
+}
+
+#header-part .logo {
+    justify-content: flex-start;
+    flex: 1;
+    padding-left: 10px;
+    color: #A8B6B5;
+}
+
+.logo .name {
+    font-family: "Times New Roma", Times, serif;
+}
+
+#header-part .nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+#header-part .nav-element {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.tab {
+    text-decoration: none;
+    color: #A8B6B5;
+    font-size: 18px;
+}
+
+.nav-element .tab:hover {
+    color: #AE795F;
+}
+
+#nav-side-button {
+    flex: 1;
+    display: none;
+}
+
+.head-bt {
+    background-color: #A8B6B5;
+    color: #576163;
+    font-weight: bold;
+    border: 1px solid;
+    height: 25px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.head-bt:hover {
+    color: #AE795F;
+}
+
+#header-part .search-sub {
+    justify-content: center;
+    flex: 1;
+}

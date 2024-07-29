@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amal Personal Blog</title>
+    <link href="static\css\style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <header id="header-part">
+        <div class="logo">
+            <!-- <img src="amal.png" class="image"> -->
+            <h1 class="name">AMAL BUTMAH</h1>
+        </div>
+        <div class="search-sub">
+            <input class="in" type="text" name="search" id="search">
+            <button class="head-bt">Search</button>
+            <button class="head-bt">Subscribe</button>
+        </div>
+        <nav class="nav-list">
+            <ul>
+                <li class="nav-element"><a class="tab" href="index.html">Home</a></li>
+                <li class="nav-element"><a class="tab" href="\static\blog.html">Blog</a></li>
+                <li class="nav-element"><a class="tab" href="#">About</a></li>
+                <li class="nav-element"><a class="tab" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="nav-side-button" onclick="sidebar()">☰</button>
+    </header>
+    <section id="nav-sidebar">
+        <nav class="nav-list">
+            <ul>
+                <li class="nav-element"><a class="tab" href="index.html">Home</a></li>
+                <li class="nav-element"><a class="tab" href="\static\blog.html">Blog</a></li>
+                <li class="nav-element"><a class="tab" href="#">About</a></li>
+                <li class="nav-element"><a class="tab" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <main class="page">
+        <div class="image-container">
+            <img src="static\images\main.jpg">
+            <div class="text-above-image">This is Amal Blog</div>
+        </div>
+        <h2 class="cards-title">Top Posts</h2>
+        <section class="cards">
+            <div id="column">
+                <article class="card"> <!--Card-->
+                    <div class="card-img">
+                        <img src="static\images\travel.jpg" title="Travel" alt="Travel">
+                    </div>
+                    <figcaption class="figure-caption">Travel</figcaption>
+                    <div class="card-text">
+                        <p><b>Travel</b> opens the door to <u>new experiences</u> and perspectives, enriching our lives
+                            with
+                            cultural
+                            diversity and adventure. Whether exploring bustling cities, serene landscapes, or hidden
+                            gems,
+                            travel fosters personal growth and creates lasting memories. It offers a chance to step
+                            out
+                            of
+                            our <i>comfort zones</i>, connect with people from different backgrounds, and gain a deeper
+                            understanding of the world around us. </p>
+                    </div>
+                    <div class="card-div">
+                        <button class="card-bt"><a class="card-bt" href="static\blog.html">Read more..</a></button>
+                    </div>
+                </article>
+                <article class="card"> <!--Card-->
+                    <div class="card-img">
+                        <img src="static\images\travel.jpg" title="Travel" alt="Travel">
+                    </div>
+                    <figcaption class="figure-caption">Travel</figcaption>
+                    <div class="card-text">
+                        <p><b>Travel</b> opens the door to <u>new experiences</u> and perspectives, enriching our lives
+                            with
+                            cultural
+                            diversity and adventure. Whether exploring bustling cities, serene landscapes, or hidden
+                            gems,
+                            travel fosters personal growth and creates lasting memories. It offers a chance to step
+                            out
+                            of
+                            our <i>comfort zones</i>, connect with people from different backgrounds, and gain a deeper
+                            understanding of the world around us.
+                        </p>
+                    </div>
+                    <div class="card-div">
+                        <button class="card-bt"><a class="card-bt" href="static\blog.html">Read more..</a></button>
+                    </div>
+                </article>
+            </div>
+            <div id="column">
+                <article class="card"> <!--Card-->
+                    <div class="card-img">
+                        <img src="static\images\break.png" title="Breakfast" alt="Breakfast">
+                    </div>
+                    <figcaption class="figure-caption">Breakfast</figcaption>
+                    <div class="card-text">
+                        <p><b>Breakfast</b> provides essential energy and nutrients to start your day right. A
+                            well-balanced
+                            meal,
+                            featuring whole grains, fruits, and proteins, not only boosts metabolism but also
+                            enhances
+                            concentration and overall health.</p>
+                    </div>
+                    <div class="card-div">
+                        <button class="card-bt"><a class="card-bt" href="\static\blog.html">Read more..</a></button>
+                    </div>
+                </article>
+                <article class="card"> <!--Card-->
+                    <div class="card-img">
+                        <img src="static\images\break.png" title="Breakfast" alt="Breakfast">
+                    </div>
+                    <figcaption class="figure-caption">Breakfast</figcaption>
+                    <div class="card-text">
+                        <p><b>Breakfast</b> provides essential energy and nutrients to start your day right. A
+                            well-balanced
+                            meal,
+                            featuring whole grains, fruits, and proteins, not only boosts metabolism but also
+                            enhances
+                            concentration and overall health. </p>
+                    </div>
+                    <div class="card-div">
+                        <button class="card-bt"><a class="card-bt" href="\static\blog.html">Read more..</a></button>
+                    </div>
+                </article>
+            </div>
+            <div id="column">
+                <article class="card"> <!--Card-->
+                    <div class="card-img">
+                        <img src="static\images\clothes.jpg" title="Clothes" alt="Clothes">
+                    </div>
+                    <figcaption class="figure-caption">Clothes</figcaption>
+                    <div class="card-text">
+                        <p><b>Clothes</b> are more than just fabric; they’re a form of self-expression and a
+                            reflection
+                            of
+                            personal style. From choosing the perfect outfit for a special occasion to selecting
+                            comfortable
+                            everyday wear, the clothes we choose can significantly impact our confidence and mood.
+                            By
+                            curating a wardrobe that combines both functionality and flair, we not only stay stylish
+                            but
+                            also feel empowered.</p>
+                    </div>
+                    <div class="card-div">
+                        <button class="card-bt"><a class="card-bt" href="static\blog.html">Read more..</a></button>
+                    </div>
+                </article>
+                <article class="card"> <!--Card-->
+                    <div class="card-img">
+                        <img src="static\images\clothes.jpg" title="Clothes" alt="Clothes">
+                    </div>
+                    <figcaption class="figure-caption">Clothes</figcaption>
+                    <div class="card-text">
+                        <p class="text-style"><b>Clothes</b> are more than just fabric; they’re a form of
+                            self-expression and a
+                            reflection
+                            of
+                            personal style. From choosing the perfect outfit for a special occasion to selecting
+                            comfortable
+                            everyday wear, the clothes we choose can significantly impact our confidence and mood.
+                            By
+                            curating a wardrobe that combines both functionality and flair, we not only stay stylish
+                            but
+                            also feel empowered. </p>
+                    </div>
+                    <div class="card-div">
+                        <button class="card-bt"><a class="card-bt" href="static\blog.html">Read more..</a></button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <h1>Let me know what's on your mind</h1>
+        <section class="form-field">
+            <form id="form-part" action="https://httpbin.org/get" method="get">
+                <div class="fields">
+                    <label for="name">Name</label><br>
+                    <input class="in" type="text" id="name" name="name" required>
+                </div>
+                <div class="fields">
+                    <label for="email">Email</label><br>
+                    <input class="in" type="email" id="email" name="email" required>
+                </div>
+                <div class="fields">
+                    <label for="phone">Phone</label><br>
+                    <input class="in" type="tel" id="phone" name="phone">
+                </div>
+                <div class="fields">
+                    <label for="subject">Subject</label><br>
+                    <input class="in" type="text" id="subject" name="subject" required>
+                </div>
+                <div class="fields">
+                    <label for="message">Message</label><br>
+                    <textarea class="in" id="message" name="message" required></textarea>
+                </div>
+                <div class="submit">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a class="icon" href="https://www.instagram.com/amal_butmah" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+            <a class="icon" href="https://github.com/AmalBut" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="icon" href="https://linkedin.com/in/amal-butmah-7b0808160" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a class="icon" href="https://www.facebook.com/amal.albutmah/" target="_blank"><i
+                    class="fab fa-facebook"></i></a>
+        </div>
+        <p>&copy;2024 by Amal. All rights reserved.</p>
+    </footer>
+    <script src="static\code.js"></script>
+</body>
+
+</html>

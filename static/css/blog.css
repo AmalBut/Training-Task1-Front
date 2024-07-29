@@ -1,0 +1,107 @@
+.profile {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #576163;
+}
+
+.blog-travel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    background-color: #F8F7F0;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 80%;
+    align-self: center;
+}
+
+.blog-travel .card-text {
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.blog-right {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    background-color: #A8B6B5;
+    border-radius: 15px;
+}
+
+.blog-left {
+    flex: 7;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.fb-share-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.fb-share-button:hover {
+    background-color: #365899;
+}
+
+.linkedin-share-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #0077b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.linkedin-share-button:hover {
+    background-color: #005582;
+}
+
+.info {
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .blog-travel {
+        flex-direction: column;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+
+    .blog-right {
+        display: flex;
+        flex: 1;
+        background-color: #A8B6B5;
+        border-radius: 15px;
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
+    }
+
+    .blog-left {
+        flex: 1;
+        width: 100%;
+    }
+
+    .blog-travel .card-text {
+        font-family: "Times New Roman", Times, serif;
+        text-align: justify;
+        font-size: 15px;
+        padding-right: 20px;
+    }
+
+}

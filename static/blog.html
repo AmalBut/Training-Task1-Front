@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link href="..\static\css\style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <!-- <img src="amal.png" class="image"> -->
+            <h1 class="name">AMAL BUTMAH</h1>
+        </div>
+        <div class="search-sub">
+            <input type="text" name="search" id="search">
+            <button class="head-bt">Search</button>
+            <button class="head-bt">Subscribe</button>
+        </div>
+        <nav class="nav-list">
+            <ul>
+                <li class="nav-element"><a class="tab" href="../index.html">Home</a></li>
+                <li class="nav-element"><a class="tab" href="blog.html">Blog</a></li>
+                <li class="nav-element"><a class="tab" href="#">About</a></li>
+                <li class="nav-element"><a class="tab" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="nav-side-button" onclick="sidebar()">☰</button>
+    </header>
+    <section id="nav-sidebar">
+        <nav class="nav-list">
+            <ul>
+                <li class="nav-element"><a class="tab" href="../index.html">Home</a></li>
+                <li class="nav-element"><a class="tab" href="..\static\blog.html">Blog</a></li>
+                <li class="nav-element"><a class="tab" href="#">About</a></li>
+                <li class="nav-element"><a class="tab" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <main class="page">
+        <section class="blog-travel">
+            <div class="blog-right">
+                <div class="info">
+                    <img class="profile" src="..\static\images\profile.jpg">
+                </div>
+                <div class="info">
+                    <p><b>Title:</b> Travel</p>
+                    <p><b>Author:</b> Amal Butmah</p>
+                    <p><b>Company:</b> Jaffal Group</p>
+                </div>
+            </div>
+            <div class="blog-left">
+                <h2>Bio</h2>
+                <p class="card-text"><b>Traveling</b> opens the door to a world of new experiences and perspectives.
+                    Each
+                    journey offers
+                    a
+                    unique blend of adventure and discovery, allowing travelers to immerse themselves in
+                    different
+                    cultures, cuisines, and landscapes. Whether it's exploring bustling city streets, wandering
+                    through serene natural parks, or delving into the rich history of ancient sites, travel
+                    broadens
+                    our horizons and enriches our understanding of the world. It fosters a sense of wonder and
+                    curiosity, encouraging us to <u>step out of our comfort zones</u> and embrace the unfamiliar.
+                    Through
+                    travel, we not only learn about diverse places and people but also about ourselves, gaining
+                    insights that can only be found through the transformative power of exploration.<br>
+                    Delving into the rich history of ancient sites takes us back in time, connecting us to the
+                    stories and achievements of past civilizations. <b>Travel</b> broadens our horizons and enriches
+                    our
+                    <i>understanding</i> of the world, fostering a sense of wonder and curiosity. It encourages us to
+                    step
+                    out of our comfort zones and embrace the unfamiliar, challenging our preconceptions and
+                    expanding our worldview.
+                </p>
+                <button onclick="shareOnFacebook()" class="fb-share-button">
+                    Share on Facebook
+                </button>
+                <button onclick="shareOnLinkedIn()" class="linkedin-share-button">
+                    Share on LinkedIn
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a class="icon" href="https://www.instagram.com/amal_butmah" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+            <a class="icon" href="https://github.com/AmalBut" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="icon" href="https://linkedin.com/in/amal-butmah-7b0808160" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a class="icon" href="https://www.facebook.com/amal.albutmah/" target="_blank"><i
+                    class="fab fa-facebook"></i></a>
+        </div>
+        <p>&copy;2024 by Amal. All rights reserved.</p>
+    </footer>
+    <script src="..\static\code.js"></script>
+</body>
+
+</html>
